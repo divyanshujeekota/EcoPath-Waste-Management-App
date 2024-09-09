@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jjj"
+    android:orientation="vertical"
+    tools:context=".USER_MAIN_PAGE">
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/angkor"
+                android:text="TextView"
+                android:textColor="#7AB33B"
+                android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/local"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/angkor"
+        android:text="TextView"
+        android:textColor="#7AB33B"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/aadhar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/angkor"
+        android:text="TextView"
+        android:textColor="#7AB33B"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/incentive"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="#FDFAFA"
+        android:elevation="8dp"
+        android:text="Check Incentives"
+        android:textColor="#99E93D"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/leader"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FDFAFA"
+        android:elevation="8dp"
+        android:text="Check LeaderBoard"
+        android:textColor="#99E93D"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FDFAFA"
+        android:elevation="8dp"
+        android:text="Report"
+        android:textColor="#99E93D"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/homebutton2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FDFAFA"
+        android:elevation="8dp"
+        android:text="Home"
+        android:textColor="#99E93D"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

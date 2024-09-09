@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hackathon_bg"
+    tools:context=".Authority_page">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="430dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#FFFFFF"
+        app:cardCornerRadius="50dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="94dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="#99E93D"
+            android:text="Login"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="360dp"
+            android:backgroundTint="#99E93D"
+            android:text="SignUp"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/logo" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

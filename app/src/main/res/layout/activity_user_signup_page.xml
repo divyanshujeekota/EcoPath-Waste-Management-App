@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hackathon_bg"
+    tools:context=".User_signup_page">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="620dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFFFFF"
+        app:cardCornerRadius="50dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="94dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/signup_aadhar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="320dp"
+            android:ems="10"
+            android:hint="Aadhar Number"
+            android:inputType="text"
+            android:textColorHint="#80BD34"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="380dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColorHint="#80BD34"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/signup_locality"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="440dp"
+            android:ems="10"
+            android:hint="Locality"
+            android:inputType="text"
+            android:textColorHint="#80BD34"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/Signup_button_user"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="560dp"
+            android:backgroundTint="#99E93D"
+            android:text="SignUp"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="500dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="text"
+            android:textColorHint="#80BD34"
+            android:textStyle="italic" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
